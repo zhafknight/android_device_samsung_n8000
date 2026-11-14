@@ -12,6 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1024
 TARGET_SCREEN_WIDTH := 600
+TARGET_BOOTANIMATION_HALF_RES := true
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
